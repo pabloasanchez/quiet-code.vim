@@ -211,9 +211,10 @@ hi WinSeparator ctermfg=DarkGray guifg=#161616
 hi TabLine ctermfg=234 guifg=234 guibg=red
 hi TabLineFill ctermfg=234 guifg=234
 hi TabLineSel ctermfg=DarkGray guifg=DarkGray
-hi StatusLine ctermfg=180 gui=bold cterm=bold guibg=#0a0a0a guifg=#333333
+hi StatusLine ctermbg=black ctermfg=180 gui=bold cterm=bold guibg=black guifg=#333333
+hi StatusLineTerm ctermbg=black ctermfg=180 gui=bold cterm=bold guibg=black guifg=#333333
 hi StatusLineNC ctermfg=black guifg=black
-hi StatusLineInsert ctermfg=red gui=bold cterm=bold guibg=#0a0a0a guifg=red
+hi StatusLineInsert ctermfg=red gui=bold cterm=bold guibg=black guifg=red
 hi ModeMsg ctermfg=red gui=bold cterm=bold guifg=red
 hi SignColumn guibg=#000000
 hi Pmenu ctermfg=59 ctermbg=16 guifg=59 guibg=16
